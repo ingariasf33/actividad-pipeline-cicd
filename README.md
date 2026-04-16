@@ -28,6 +28,8 @@ La URL esperada de publicacion es:
 https://ingariasf33.github.io/actividad-pipeline-cicd/
 ```
 
+Ultima actualizacion del flujo CI/CD: 2026-04-16.
+
 ## Estructura
 
 - `src/lib/core`: cliente HTTP, configuracion y adaptadores.
