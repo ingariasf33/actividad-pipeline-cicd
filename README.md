@@ -16,6 +16,18 @@ npm run check
 npm run build
 ```
 
+## CI/CD y GitHub Pages
+
+- `CI`: valida el proyecto con `npm ci`, `npm run check` y `npm run build`.
+- `Deploy`: publica automaticamente en GitHub Pages cuando hay cambios en `main`.
+- En GitHub Actions, el `base path` se ajusta automaticamente al nombre del repositorio.
+
+La URL esperada de publicacion es:
+
+```text
+https://ingariasf33.github.io/actividad-pipeline-cicd/
+```
+
 ## Estructura
 
 - `src/lib/core`: cliente HTTP, configuracion y adaptadores.
