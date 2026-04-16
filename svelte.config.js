@@ -1,6 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 
-const basePath = process.env.BASE_PATH ?? '';
+const repositoryName = process.env.GITHUB_REPOSITORY?.split('/')[1];
+const basePath = process.env.BASE_PATH ?? (repositoryName ? `/${repositoryName}` : '');
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
